@@ -205,16 +205,11 @@ p.nameInsideImage {
 }
 
 .made-by {
-  color: #818388;
-	margin: 0px;
-	padding: 8px 0px 8px 16px;
-	background: rgb(21, 24, 28);
+  display:none;
 }
 
 .made-by a, .made-by a:visited {
-	margin: 0px;
-	padding: 0px;
-  color: #818388;
+ display:none;
 }
 
 .nft-card-title, .nft-card-title:visited {
