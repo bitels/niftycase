@@ -43,6 +43,7 @@ body {
 .nft-slider header nav .active
 {
   color: #333;
+  font-weight:700 !important;
 }
 
 .eth-addr,
