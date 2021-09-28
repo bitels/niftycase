@@ -136,7 +136,7 @@
         success: onSuccess
       });
     } else {
-      console.error('NFTSlider: No target address found.');
+      console.error('No target address found.');
       return;
     }
 
