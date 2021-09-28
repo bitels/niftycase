@@ -64,7 +64,7 @@
 
     let requestActivity = function(addr) {
       const options = {method: 'GET', headers: {Accept: 'application/json'}};
-      fetch(`https://api.opensea.io/api/v1/events?account_address=${addr}&only_opensea=false&offset=0&limit=50`, options)
+      fetch(`https://api.opensea.io/api/v1/events?account_address=${addr}&only_opensea=false&order_by=sale_price&offset=0&limit=50`, options)
         .then(response => response.json())
         .then(response => {
           // console.log(response);
