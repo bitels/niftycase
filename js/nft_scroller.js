@@ -215,7 +215,8 @@
         owner: addr,
         offset: offset,
         limit: limit,
-        order_direction: 'desc'
+        order_direction: 'desc',
+        order_by: 'sale_price'
       });
       // maybe use async await here!
       $.ajax({
