@@ -132,7 +132,7 @@
       let params = $.extend({}, opts.params, { owner: opts.addr });
       let qs = getQueryString(params);
       $.ajax({
-        url: API_URL + (qs ? '?' + qs : ''),
+        url: API_URL + (qs ? '?search[sortBy]=LAST_SALE_PRICE&search[sortAscending]=false' + qs : ''),
         success: onSuccess
       });
     } else {
