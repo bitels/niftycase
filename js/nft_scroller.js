@@ -209,13 +209,14 @@
       .catch(err => console.error(err));
     }
 
-    let requestAssets = function(addr, offset, limit) {
+    let requestAssets = function(addr, offset, limit, order_by) {
       loading = true;
       const qs = getQueryString({
         owner: addr,
         offset: offset,
         limit: limit,
-        order_direction: 'desc'
+        order_direction: 'desc',
+        order_by: 'sale_price'
       });
       // maybe use async await here!
       $.ajax({
