@@ -82,7 +82,7 @@ body {
 }
 
 .slide > div {
-  background-color: #fafafa;
+  background-color: #202020;
   margin: 0rem 0.4rem 1.2rem;
   padding: 0.5rem;
   border-radius: 8px;
@@ -130,7 +130,7 @@ body {
 }
 
 .asset-name {
-  color: #707980;
+  color: #fff !important;
   font-size: 16px;
   font-weight: 500;
   margin: -6px 0px 8px 0px;
@@ -150,7 +150,7 @@ body {
 .asset-name a,
 .asset-name a:visited
 {
-  color: #333;
+  color: #fff !important;
   text-decoration: none;
 }
 
