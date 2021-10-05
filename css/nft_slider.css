@@ -37,12 +37,14 @@ body {
 {
   padding: 0 2px;
   cursor: pointer;
+  font-weight: 700 !important;
 }
 
 .nft-slider header nav a:hover,
 .nft-slider header nav .active
 {
-  color: #fff !important;
+  color: #333 !important;
+  font-weight: 700 !important;
 }
 
 .eth-addr,
