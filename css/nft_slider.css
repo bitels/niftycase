@@ -152,7 +152,7 @@ body {
 .asset-name a,
 .asset-name a:visited
 {
-  color: #333;
+  color: #fff !important;
   text-decoration: none;
 }
 
