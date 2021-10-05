@@ -1,5 +1,5 @@
 body {
-  font-family: "Inter", san-serif;
+  font-family: 'Poppins',sans-serif;
   /* background-color: white; */
 }
 
@@ -31,6 +31,7 @@ body {
   font-size: 18px;
   color: #aaa;
   user-select: none;
+  font-weight: 700 !important;
 }
 
 .nft-slider header nav a
@@ -43,12 +44,13 @@ body {
 .nft-slider header nav .active
 {
   color: #333;
+  font-weight:700 !important;
 }
 
 .eth-addr,
 .eth-addr:visited {
   vertical-align: super;
-  color: inherit;
+  color: #fff !important;
   text-decoration: none;
 }
 
